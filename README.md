@@ -3,5 +3,5 @@
 
 To clone:
 ```
-git clone --recurse https://github.com/BSeR-PoC/SMARTHelperJava.git
+git clone --recurse https://github.com/BSeR-PoC/bser-engine-server.git
 ```
