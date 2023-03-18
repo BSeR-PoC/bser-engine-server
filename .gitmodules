@@ -1,0 +1,16 @@
+[submodule "bser-engine"]
+	path = bser-engine
+	url = https://github.com/BSeR-PoC/bser-engine.git
+	branch = main
+[submodule "BSeR_javalib"]
+	path = BSeR_javalib
+	url = https://github.com/BSeR-PoC/BSeR_javalib.git
+	branch = master
+[submodule "USCore_javalib"]
+	path = USCore_javalib
+	url = https://github.com/SmartChartSuite/USCore_javalib.git
+	branch = master
+[submodule "SMARTHelperJava"]
+	path = SMARTHelperJava
+	url = https://github.com/BSeR-PoC/SMARTHelperJava.git
+	branch = main
