@@ -33,8 +33,8 @@
 	<description>BSeR Engine Build</description>
 
 	<modules>
-		<module>SMARTHelperJava</module>
 		<module>USCore_javalib</module>
+		<module>SMARTHelperJava</module>
 		<module>BSeR_javalib</module>
 		<module>bser-engine</module>
 	</modules>
