@@ -1,11 +1,11 @@
 #Build the Maven project
-FROM maven:3.8.3-openjdk-17 as builder
+FROM maven:3.9.6-amazoncorretto-21-al2023 as builder
 COPY . /usr/src/app
 WORKDIR /usr/src/app
 RUN mvn clean install
 
 #Build the Tomcat container
-FROM tomcat:9.0.65-jre17
+FROM tomcat:jre21
 
 # Copy war file to webapps.
 COPY --from=builder /usr/src/app/Keys /opt/Keys
